@@ -1,8 +1,8 @@
-import CollateralManagerABI from "../../artifacts/contracts/CollateralManager.sol/CollateralManager.json";
-import BorrowingABI from "../../artifacts/contracts/Borrowing.sol/Borrowing.json";
-import LiquidationABI from "../../artifacts/contracts/Liquidation.sol/Liquidation.json";
-import ERC20ABI from "../../artifacts/contracts/MockStablecoin.sol/MockStablecoin.json";
-import PriceOracleABI from "../../artifacts/contracts/MockPriceOracle.sol/MockPriceOracle.json";
+import CollateralManagerABI from "../lib/contracts/CollateralManager.json";
+import BorrowingABI from "../lib/contracts/Borrowing.json";
+import LiquidationABI from "../lib/contracts/Liquidation.json";
+import ERC20ABI from "../lib/contracts/MockStablecoin.json";
+import PriceOracleABI from "../lib/contracts/MockPriceOracle.json";
 
 export const CONTRACT_ADDRESSES = {
   // Sepolia Testnet Addresses
